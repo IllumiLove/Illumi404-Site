@@ -44,7 +44,7 @@
 
     <div id="sound-slider__container" class="mt-5">
       <i class='iconVolume text-white hovered bx bxs-volume-mute bx-tada bx-flip-vertical' #iconVolume (click)="toggleMute()"></i>
-      <input type="range" #volumeInput value="10" min="0" max="100" id="sound-slider" (input)="changeVolume($event)" class="hovered">
+      <input type="range" #volumeInput value="0" min="0" max="100" id="sound-slider" (input)="changeVolume($event)" class="hovered">
       <p id="volume">{{volume}}</p>
     </div>
   </div>

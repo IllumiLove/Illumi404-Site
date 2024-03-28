@@ -13,7 +13,7 @@ export class MainComponent implements OnInit, AfterViewInit {
   @ViewChild('iconVolume') iconVolume: any;
   @ViewChild('volumeInput') volumeInput: any;
 
-  public volume: number = 0;
+  public volume: number = 10;
 
   constructor(private renderer: Renderer2) { }
 
